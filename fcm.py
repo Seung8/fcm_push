@@ -10,7 +10,7 @@ def send_fcm_notification(ids, title, body):
     url = 'https://fcm.googleapis.com/fcm/send'
 
     headers = {
-        'Authorization': 'key={}'.format('your cloud messeging server key in firebase app'),
+        'Authorization': 'key={}'.format('your cloud messaging server key in firebase app'),
         'Content-Type': 'application/json; UTF-8',
     }
 
